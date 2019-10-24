@@ -1,1 +1,1 @@
-# pruebaapp_reactnative
+# facialrecognition_reactnative
