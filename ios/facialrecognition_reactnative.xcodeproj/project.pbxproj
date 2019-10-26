@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A66CA2469B3BC19BB6F3BDC /* libPods-facialrecognition_reactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2035CEA77970A1B465E14B5 /* libPods-facialrecognition_reactnative.a */; };
-		2408E1BB6B54CBA0B091D096 /* libPods-facialrecognition_reactnativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E2CE99AC8D18AC0D45C5E /* libPods-facialrecognition_reactnativeTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* facialrecognition_reactnativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* facialrecognition_reactnativeTests.m */; };
-		6067ADDEC8DE4E6435D8ED58 /* libPods-facialrecognition_reactnative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 235D37BCC1B960ED2221677A /* libPods-facialrecognition_reactnative-tvOS.a */; };
-		788E48562F3C84B7CA9FC741 /* libPods-facialrecognition_reactnative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EBC12F1FD42D5B4982F0B7 /* libPods-facialrecognition_reactnative-tvOSTests.a */; };
+		6CF9574FE20EC00E718DEAF4 /* libPods-facialrecognition_reactnative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB034BBB047D405441CCBA5 /* libPods-facialrecognition_reactnative-tvOS.a */; };
+		6E55B4A2398B11151E3E871D /* libPods-facialrecognition_reactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2FA11D6A7F59779FFA8B46 /* libPods-facialrecognition_reactnative.a */; };
+		99BB9A5FBA238E05F0AA1DB8 /* libPods-facialrecognition_reactnativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634CF420D7E9C7CE8330FF1C /* libPods-facialrecognition_reactnativeTests.a */; };
+		B1A4B9C41D4CDB2CC0F98C65 /* libPods-facialrecognition_reactnative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B0B6D2D7FA3B24B84CBD7B /* libPods-facialrecognition_reactnative-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		00E356EE1AD99517003FC87E /* facialrecognition_reactnativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facialrecognition_reactnativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* facialrecognition_reactnativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facialrecognition_reactnativeTests.m; sourceTree = "<group>"; };
-		114E2CE99AC8D18AC0D45C5E /* libPods-facialrecognition_reactnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB034BBB047D405441CCBA5 /* libPods-facialrecognition_reactnative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* facialrecognition_reactnative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facialrecognition_reactnative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = facialrecognition_reactnative/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = facialrecognition_reactnative/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = facialrecognition_reactnative/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = facialrecognition_reactnative/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = facialrecognition_reactnative/main.m; sourceTree = "<group>"; };
-		15EBC12F1FD42D5B4982F0B7 /* libPods-facialrecognition_reactnative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		235D37BCC1B960ED2221677A /* libPods-facialrecognition_reactnative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B4043B6A9FB6BBEC6DE705 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOSTests/Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2501C1A1810785E99482AF2E /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOSTests/Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		272DAC7E6741CDE2774BEF67 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnativeTests.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnativeTests/Pods-facialrecognition_reactnativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19F3C2146226555A021A4E02 /* Pods-facialrecognition_reactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative/Pods-facialrecognition_reactnative.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* facialrecognition_reactnative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facialrecognition_reactnative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* facialrecognition_reactnative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "facialrecognition_reactnative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40BFF913DE5EBEB4BE64433A /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOS/Pods-facialrecognition_reactnative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5DD3515566BEAD0CA9FE6121 /* Pods-facialrecognition_reactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative/Pods-facialrecognition_reactnative.debug.xcconfig"; sourceTree = "<group>"; };
-		8B0B0E08FC07801D9D542C3C /* Pods-facialrecognition_reactnativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnativeTests.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnativeTests/Pods-facialrecognition_reactnativeTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2035CEA77970A1B465E14B5 /* libPods-facialrecognition_reactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D410B4C8FEFBF5D05C9F0DA3 /* Pods-facialrecognition_reactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative/Pods-facialrecognition_reactnative.release.xcconfig"; sourceTree = "<group>"; };
+		634CF420D7E9C7CE8330FF1C /* libPods-facialrecognition_reactnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C4268D86DD3CA2FF8C165 /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOS/Pods-facialrecognition_reactnative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		78BFBD5AFB7442631F4E3230 /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOS/Pods-facialrecognition_reactnative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8A2FA11D6A7F59779FFA8B46 /* libPods-facialrecognition_reactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44097DF9033D127F5A6C9F2 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnativeTests.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnativeTests/Pods-facialrecognition_reactnativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2CF8981521B3945080EF18 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOSTests/Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B0B6D2D7FA3B24B84CBD7B /* libPods-facialrecognition_reactnative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facialrecognition_reactnative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEB9F7409ABFB65B05B5CF /* Pods-facialrecognition_reactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative/Pods-facialrecognition_reactnative.release.xcconfig"; sourceTree = "<group>"; };
+		E9C10E6FC0250D553BE4AF99 /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOSTests/Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FBEFB93568A579F68FBD68EC /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnative-tvOS/Pods-facialrecognition_reactnative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCB316CA330381647C6E820 /* Pods-facialrecognition_reactnativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facialrecognition_reactnativeTests.release.xcconfig"; path = "Target Support Files/Pods-facialrecognition_reactnativeTests/Pods-facialrecognition_reactnativeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2408E1BB6B54CBA0B091D096 /* libPods-facialrecognition_reactnativeTests.a in Frameworks */,
+				99BB9A5FBA238E05F0AA1DB8 /* libPods-facialrecognition_reactnativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A66CA2469B3BC19BB6F3BDC /* libPods-facialrecognition_reactnative.a in Frameworks */,
+				6E55B4A2398B11151E3E871D /* libPods-facialrecognition_reactnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6067ADDEC8DE4E6435D8ED58 /* libPods-facialrecognition_reactnative-tvOS.a in Frameworks */,
+				6CF9574FE20EC00E718DEAF4 /* libPods-facialrecognition_reactnative-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788E48562F3C84B7CA9FC741 /* libPods-facialrecognition_reactnative-tvOSTests.a in Frameworks */,
+				B1A4B9C41D4CDB2CC0F98C65 /* libPods-facialrecognition_reactnative-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A2035CEA77970A1B465E14B5 /* libPods-facialrecognition_reactnative.a */,
-				235D37BCC1B960ED2221677A /* libPods-facialrecognition_reactnative-tvOS.a */,
-				15EBC12F1FD42D5B4982F0B7 /* libPods-facialrecognition_reactnative-tvOSTests.a */,
-				114E2CE99AC8D18AC0D45C5E /* libPods-facialrecognition_reactnativeTests.a */,
+				8A2FA11D6A7F59779FFA8B46 /* libPods-facialrecognition_reactnative.a */,
+				0AB034BBB047D405441CCBA5 /* libPods-facialrecognition_reactnative-tvOS.a */,
+				D8B0B6D2D7FA3B24B84CBD7B /* libPods-facialrecognition_reactnative-tvOSTests.a */,
+				634CF420D7E9C7CE8330FF1C /* libPods-facialrecognition_reactnativeTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		74911783F1224FB9E6A5FA3C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5DD3515566BEAD0CA9FE6121 /* Pods-facialrecognition_reactnative.debug.xcconfig */,
-				D410B4C8FEFBF5D05C9F0DA3 /* Pods-facialrecognition_reactnative.release.xcconfig */,
-				FBEFB93568A579F68FBD68EC /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */,
-				40BFF913DE5EBEB4BE64433A /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */,
-				23B4043B6A9FB6BBEC6DE705 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */,
-				2501C1A1810785E99482AF2E /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */,
-				272DAC7E6741CDE2774BEF67 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */,
-				8B0B0E08FC07801D9D542C3C /* Pods-facialrecognition_reactnativeTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* facialrecognition_reactnativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				74911783F1224FB9E6A5FA3C /* Pods */,
+				C16F146F7117E0681049597B /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C16F146F7117E0681049597B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F3C2146226555A021A4E02 /* Pods-facialrecognition_reactnative.debug.xcconfig */,
+				E6BEB9F7409ABFB65B05B5CF /* Pods-facialrecognition_reactnative.release.xcconfig */,
+				78BFBD5AFB7442631F4E3230 /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */,
+				667C4268D86DD3CA2FF8C165 /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */,
+				BA2CF8981521B3945080EF18 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */,
+				E9C10E6FC0250D553BE4AF99 /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */,
+				B44097DF9033D127F5A6C9F2 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */,
+				FBCB316CA330381647C6E820 /* Pods-facialrecognition_reactnativeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "facialrecognition_reactnativeTests" */;
 			buildPhases = (
-				773B867A77C7F2F58A8D2C94 /* [CP] Check Pods Manifest.lock */,
+				5761EF8E08E22A407C019D3D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "facialrecognition_reactnative" */;
 			buildPhases = (
-				3803699133B12C1CBBF64622 /* [CP] Check Pods Manifest.lock */,
+				B33C31BB87882D8C62A0E218 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "facialrecognition_reactnative-tvOS" */;
 			buildPhases = (
-				1EF176D0ED4825DF4994E232 /* [CP] Check Pods Manifest.lock */,
+				6120D9E383837C0B6CFF1DEC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "facialrecognition_reactnative-tvOSTests" */;
 			buildPhases = (
-				C0D32ACF0F73024010AC40D9 /* [CP] Check Pods Manifest.lock */,
+				CE39842BEC5B39E6F774524A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -292,8 +291,13 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 6VNKGJR6QX;
+						ProvisioningStyle = Automatic;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6VNKGJR6QX;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -308,6 +312,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -373,28 +378,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1EF176D0ED4825DF4994E232 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-facialrecognition_reactnative-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,29 +392,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3803699133B12C1CBBF64622 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-facialrecognition_reactnative-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		773B867A77C7F2F58A8D2C94 /* [CP] Check Pods Manifest.lock */ = {
+		5761EF8E08E22A407C019D3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +414,51 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0D32ACF0F73024010AC40D9 /* [CP] Check Pods Manifest.lock */ = {
+		6120D9E383837C0B6CFF1DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-facialrecognition_reactnative-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33C31BB87882D8C62A0E218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-facialrecognition_reactnative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE39842BEC5B39E6F774524A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,7 +585,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 272DAC7E6741CDE2774BEF67 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */;
+			baseConfigurationReference = B44097DF9033D127F5A6C9F2 /* Pods-facialrecognition_reactnativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,9 +608,10 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B0B0E08FC07801D9D542C3C /* Pods-facialrecognition_reactnativeTests.release.xcconfig */;
+			baseConfigurationReference = FBCB316CA330381647C6E820 /* Pods-facialrecognition_reactnativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = facialrecognition_reactnativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -623,11 +629,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DD3515566BEAD0CA9FE6121 /* Pods-facialrecognition_reactnative.debug.xcconfig */;
+			baseConfigurationReference = 19F3C2146226555A021A4E02 /* Pods-facialrecognition_reactnative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 6VNKGJR6QX;
 				INFOPLIST_FILE = facialrecognition_reactnative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -635,18 +644,20 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.johannyvargasgonzalez.facialrecognition-reactnative";
 				PRODUCT_NAME = facialrecognition_reactnative;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D410B4C8FEFBF5D05C9F0DA3 /* Pods-facialrecognition_reactnative.release.xcconfig */;
+			baseConfigurationReference = E6BEB9F7409ABFB65B05B5CF /* Pods-facialrecognition_reactnative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VNKGJR6QX;
 				INFOPLIST_FILE = facialrecognition_reactnative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -654,7 +665,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.johannyvargasgonzalez.facialrecognition-reactnative";
 				PRODUCT_NAME = facialrecognition_reactnative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -662,15 +673,16 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBEFB93568A579F68FBD68EC /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 78BFBD5AFB7442631F4E3230 /* Pods-facialrecognition_reactnative-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6VNKGJR6QX;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "facialrecognition_reactnative-tvOS/Info.plist";
@@ -680,7 +692,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facialrecognition_reactnative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facialrecognition-reactnative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,9 +702,9 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40BFF913DE5EBEB4BE64433A /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */;
+			baseConfigurationReference = 667C4268D86DD3CA2FF8C165 /* Pods-facialrecognition_reactnative-tvOS.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -700,6 +712,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6VNKGJR6QX;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "facialrecognition_reactnative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -708,7 +721,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facialrecognition_reactnative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.facialrecognition-reactnative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +731,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B4043B6A9FB6BBEC6DE705 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = BA2CF8981521B3945080EF18 /* Pods-facialrecognition_reactnative-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +758,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2501C1A1810785E99482AF2E /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E9C10E6FC0250D553BE4AF99 /* Pods-facialrecognition_reactnative-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -754,6 +767,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6VNKGJR6QX;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "facialrecognition_reactnative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
