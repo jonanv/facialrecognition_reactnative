@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Button, Image } from 'react-native';
 
+import ImagePicker from 'react-native-image-picker';
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -29,7 +31,7 @@ class App extends Component {
         }
     }
 
-    selectImage = async () => {
+    selectImage = () => {
         ImagePicker.showImagePicker(options, (response) => {
             console.log('Response = ', response);
 
