@@ -15,25 +15,56 @@ const styles = StyleSheet.create({
     }
 });
 
+const options = {
+    noData: true,
+    mediaType: 'photo'
+}
+
 class App extends Component {
     constructor() {
         super();
         this.state = {
+            tags: 'No has subido ninguna imagen',
             avatarSource: null,
         }
     }
 
-    // selectImage = async() => {
-    //     return 
-    // }
+    selectImage = async () => {
+        ImagePicker.showImagePicker(options, (response) => {
+            console.log('Response = ', response);
+
+            if (response.didCancel) {
+                console.log('User cancelled image picker');
+            } else if (response.error) {
+                console.log('ImagePicker Error: ', response.error);
+            } else if (response.customButton) {
+                console.log('User tapped custom button: ', response.customButton);
+            } else {
+                //const source = { uri: response.uri };
+
+                // You can also display the image using data:
+                // const source = { uri: 'data:image/jpeg;base64,' + response.data };
+
+                // Se guarda la imagen y se formtea para base64
+                const base64img = 'data:image/jpeg;base64,' + response.data;
+
+                this.setState({
+                    avatarSource: response.uri,
+                });
+            }
+        });
+    }
 
     render() {
-        return(
+        return (
             <View style={styles.container}>
-                <Image style={styles.image}/>
-                <Button 
+                {
+                    this.state.avatarSource &&
+                    <Image source={{ uri: this.state.avatarSource }} style={styles.image} />
+                }
+                <Button
                     title='Seleccione imagen'
-                    // onPress={this.selectImage}
+                // onPress={this.selectImage}
                 />
             </View>
         );
