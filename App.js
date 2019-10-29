@@ -12,8 +12,9 @@ const styles = StyleSheet.create({
     },
     image: {
         width: '80%',
-        height: 200,
-        resizeMode: 'contain'
+        height: 400,
+        resizeMode: 'contain',
+        borderRadius: 20
     }
 });
 
@@ -32,7 +33,6 @@ class App extends Component {
     }
 
     selectImage = async() => {
-        // console.log('Preciono la función selectImage');
         ImagePicker.showImagePicker(options, (response) => {
             console.log('Response = ', response);
 
