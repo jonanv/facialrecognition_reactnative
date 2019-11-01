@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Button, Image } from 'react-native';
 
 import ImagePicker from 'react-native-image-picker';
+import { getImageAnalysis } from './src/providers/facialrecognition_provider';
 
 const options = {
     noData: true,
@@ -35,6 +36,7 @@ class App extends Component {
 
                 // Se guarda la imagen y se formtea para base64
                 const base64img = 'data:image/jpeg;base64,' + response.data;
+                getImageAnalysis(base64img);
 
                 this.setState({
                     avatarSource: response.uri,
