@@ -3,21 +3,6 @@ import { StyleSheet, View, Button, Image } from 'react-native';
 
 import ImagePicker from 'react-native-image-picker';
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#f5fcff'
-    },
-    image: {
-        width: '80%',
-        height: 400,
-        resizeMode: 'contain',
-        borderRadius: 20
-    }
-});
-
 const options = {
     noData: true,
     mediaType: 'photo'
@@ -73,5 +58,20 @@ class App extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#f5fcff'
+    },
+    image: {
+        width: '80%',
+        height: 400,
+        resizeMode: 'contain',
+        borderRadius: 20
+    }
+});
 
 export default App;
