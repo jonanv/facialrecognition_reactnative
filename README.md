@@ -1,6 +1,11 @@
 # facialrecognition_reactnative
 App of facial recognition with React Native using camera
 
+# Creating a new application
+```
+npx react-native init NameProyect
+```
+
 # Install dependences
 ````
 npm install
