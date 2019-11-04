@@ -18,7 +18,7 @@ class App extends Component {
         }
     }
 
-    selectImage = async() => {
+    selectImage = async () => {
         ImagePicker.showImagePicker(options, (response) => {
             console.log('Response = ', response);
 
